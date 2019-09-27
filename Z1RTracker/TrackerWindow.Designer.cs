@@ -59,12 +59,21 @@
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.CandleShopPicture = new System.Windows.Forms.PictureBox();
+            this.RingShopPicture = new System.Windows.Forms.PictureBox();
+            this.ArrowShopPicture = new System.Windows.Forms.PictureBox();
+            this.RareShopPicture = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.StepladderBlockPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RecorderBlockPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ArrowBlockPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BombBlockPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.KeyBlockPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CombatBlockPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CandleShopPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RingShopPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ArrowShopPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RareShopPicture)).BeginInit();
             // 
             // label1
             // 
@@ -382,11 +391,70 @@
             this.button24.UseVisualStyleBackColor = true;
             this.button24.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Triforce", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(629, 6);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(170, 41);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Shop Items";
+            // 
+            // CandleShopPicture
+            // 
+            this.CandleShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.CandleShopPicture.ImageLocation = ".\\Images\\Shops\\Candle.gif";
+            this.CandleShopPicture.Location = new System.Drawing.Point(573, 50);
+            this.CandleShopPicture.Name = "CandleShopPicture";
+            this.CandleShopPicture.Size = new System.Drawing.Size(52, 50);
+            this.CandleShopPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.CandleShopPicture.TabIndex = 1;
+            this.CandleShopPicture.TabStop = false;
+            // 
+            // RingShopPicture
+            // 
+            this.RingShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.RingShopPicture.ImageLocation = ".\\Images\\Shops\\Ring.gif";
+            this.RingShopPicture.Location = new System.Drawing.Point(689, 50);
+            this.RingShopPicture.Name = "RingShopPicture";
+            this.RingShopPicture.Size = new System.Drawing.Size(52, 50);
+            this.RingShopPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.RingShopPicture.TabIndex = 1;
+            this.RingShopPicture.TabStop = false;
+            // 
+            // ArrowShopPicture
+            // 
+            this.ArrowShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ArrowShopPicture.ImageLocation = ".\\Images\\Shops\\Arrow.gif";
+            this.ArrowShopPicture.Location = new System.Drawing.Point(631, 50);
+            this.ArrowShopPicture.Name = "ArrowShopPicture";
+            this.ArrowShopPicture.Size = new System.Drawing.Size(52, 50);
+            this.ArrowShopPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.ArrowShopPicture.TabIndex = 1;
+            this.ArrowShopPicture.TabStop = false;
+            // 
+            // RareShopPicture
+            // 
+            this.RareShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.RareShopPicture.ImageLocation = ".\\Images\\Shops\\Rare.gif";
+            this.RareShopPicture.Location = new System.Drawing.Point(747, 50);
+            this.RareShopPicture.Name = "RareShopPicture";
+            this.RareShopPicture.Size = new System.Drawing.Size(52, 50);
+            this.RareShopPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.RareShopPicture.TabIndex = 1;
+            this.RareShopPicture.TabStop = false;
+            // 
             // TrackerWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.CandleShopPicture);
+            this.Controls.Add(this.RingShopPicture);
+            this.Controls.Add(this.ArrowShopPicture);
+            this.Controls.Add(this.RareShopPicture);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.CombatBlockPicture);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button22);
@@ -426,6 +494,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.BombBlockPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.KeyBlockPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CombatBlockPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CandleShopPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RingShopPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ArrowShopPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RareShopPicture)).EndInit();
 
         }
 
@@ -462,6 +534,11 @@
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox CandleShopPicture;
+        private System.Windows.Forms.PictureBox RingShopPicture;
+        private System.Windows.Forms.PictureBox ArrowShopPicture;
+        private System.Windows.Forms.PictureBox RareShopPicture;
     }
 }
 

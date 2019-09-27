@@ -28,7 +28,7 @@
     <None Update="Images\ShopItems\Arrow.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Images\ShopItems\Blue Candle.gif">
+    <None Update="Images\ShopItems\Candle.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Images\ShopItems\Bomb.gif">
@@ -40,16 +40,16 @@
     <None Update="Images\ShopItems\Key.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Images\ShopTypes\5 Rupees.gif">
+    <None Update="Images\Shops\Rare.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Images\ShopTypes\Arrow %28Up%29.gif">
+    <None Update="Images\Shops\Arrow.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Images\ShopTypes\Blue Candle.gif">
+    <None Update="Images\Shops\Candle.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Images\ShopTypes\Blue Ring.gif">
+    <None Update="Images\Shops\Ring.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
