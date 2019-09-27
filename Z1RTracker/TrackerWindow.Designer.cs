@@ -111,6 +111,7 @@
             // 
             // StepladderBlockPicture
             // 
+            this.StepladderBlockPicture.BackColor = System.Drawing.Color.Gray;
             this.StepladderBlockPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.StepladderBlockPicture.ImageLocation = ".\\Images\\Blockers\\Stepladder.gif";
             this.StepladderBlockPicture.Location = new System.Drawing.Point(37, 50);
@@ -122,46 +123,55 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.BackColor = System.Drawing.Color.Gray;
+            this.button1.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button1.Location = new System.Drawing.Point(37, 122);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(52, 53);
             this.button1.TabIndex = 2;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.BackColor = System.Drawing.Color.Gray;
+            this.button2.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button2.Location = new System.Drawing.Point(37, 181);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(52, 53);
             this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.BackColor = System.Drawing.Color.Gray;
+            this.button3.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button3.Location = new System.Drawing.Point(37, 240);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(52, 53);
             this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.BackColor = System.Drawing.Color.Gray;
+            this.button4.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button4.Location = new System.Drawing.Point(37, 299);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(52, 53);
             this.button4.TabIndex = 2;
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // RecorderBlockPicture
             // 
+            this.RecorderBlockPicture.BackColor = System.Drawing.Color.Gray;
             this.RecorderBlockPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.RecorderBlockPicture.ImageLocation = ".\\Images\\Blockers\\Recorder.gif";
             this.RecorderBlockPicture.Location = new System.Drawing.Point(95, 50);
@@ -173,86 +183,103 @@
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.BackColor = System.Drawing.Color.Gray;
+            this.button5.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button5.Location = new System.Drawing.Point(95, 122);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(52, 53);
             this.button5.TabIndex = 2;
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button6.BackColor = System.Drawing.Color.Gray;
+            this.button6.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button6.Location = new System.Drawing.Point(95, 181);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(52, 53);
             this.button6.TabIndex = 2;
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button7
             // 
-            this.button7.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button7.BackColor = System.Drawing.Color.Gray;
+            this.button7.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button7.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button7.Location = new System.Drawing.Point(95, 240);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(52, 53);
             this.button7.TabIndex = 2;
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             this.button7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button8
             // 
-            this.button8.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button8.BackColor = System.Drawing.Color.Gray;
+            this.button8.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button8.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button8.Location = new System.Drawing.Point(95, 299);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(52, 53);
             this.button8.TabIndex = 2;
-            this.button8.UseVisualStyleBackColor = true;
+            this.button8.UseVisualStyleBackColor = false;
             this.button8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button9
             // 
-            this.button9.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button9.BackColor = System.Drawing.Color.Gray;
+            this.button9.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button9.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button9.Location = new System.Drawing.Point(153, 299);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(52, 53);
             this.button9.TabIndex = 2;
-            this.button9.UseVisualStyleBackColor = true;
+            this.button9.UseVisualStyleBackColor = false;
             this.button9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button10
             // 
-            this.button10.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button10.BackColor = System.Drawing.Color.Gray;
+            this.button10.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button10.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button10.Location = new System.Drawing.Point(153, 240);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(52, 53);
             this.button10.TabIndex = 2;
-            this.button10.UseVisualStyleBackColor = true;
+            this.button10.UseVisualStyleBackColor = false;
             this.button10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button11
             // 
-            this.button11.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button11.BackColor = System.Drawing.Color.Gray;
+            this.button11.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button11.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button11.Location = new System.Drawing.Point(153, 181);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(52, 53);
             this.button11.TabIndex = 2;
-            this.button11.UseVisualStyleBackColor = true;
+            this.button11.UseVisualStyleBackColor = false;
             this.button11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button12
             // 
-            this.button12.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button12.BackColor = System.Drawing.Color.Gray;
+            this.button12.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button12.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button12.Location = new System.Drawing.Point(153, 122);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(52, 53);
             this.button12.TabIndex = 2;
-            this.button12.UseVisualStyleBackColor = true;
+            this.button12.UseVisualStyleBackColor = false;
             this.button12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // ArrowBlockPicture
             // 
+            this.ArrowBlockPicture.BackColor = System.Drawing.Color.Gray;
             this.ArrowBlockPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ArrowBlockPicture.ImageLocation = ".\\Images\\Blockers\\Arrow.gif";
             this.ArrowBlockPicture.Location = new System.Drawing.Point(153, 50);
@@ -264,6 +291,7 @@
             // 
             // BombBlockPicture
             // 
+            this.BombBlockPicture.BackColor = System.Drawing.Color.Gray;
             this.BombBlockPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.BombBlockPicture.ImageLocation = ".\\Images\\Blockers\\Bomb.gif";
             this.BombBlockPicture.Location = new System.Drawing.Point(211, 50);
@@ -275,86 +303,103 @@
             // 
             // button13
             // 
-            this.button13.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button13.BackColor = System.Drawing.Color.Gray;
+            this.button13.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button13.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button13.Location = new System.Drawing.Point(211, 122);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(52, 53);
             this.button13.TabIndex = 2;
-            this.button13.UseVisualStyleBackColor = true;
+            this.button13.UseVisualStyleBackColor = false;
             this.button13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button14
             // 
-            this.button14.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button14.BackColor = System.Drawing.Color.Gray;
+            this.button14.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button14.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button14.Location = new System.Drawing.Point(211, 181);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(52, 53);
             this.button14.TabIndex = 2;
-            this.button14.UseVisualStyleBackColor = true;
+            this.button14.UseVisualStyleBackColor = false;
             this.button14.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button15
             // 
-            this.button15.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button15.BackColor = System.Drawing.Color.Gray;
+            this.button15.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button15.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button15.Location = new System.Drawing.Point(211, 240);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(52, 53);
             this.button15.TabIndex = 2;
-            this.button15.UseVisualStyleBackColor = true;
+            this.button15.UseVisualStyleBackColor = false;
             this.button15.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button16
             // 
-            this.button16.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button16.BackColor = System.Drawing.Color.Gray;
+            this.button16.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button16.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button16.Location = new System.Drawing.Point(211, 299);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(52, 53);
             this.button16.TabIndex = 2;
-            this.button16.UseVisualStyleBackColor = true;
+            this.button16.UseVisualStyleBackColor = false;
             this.button16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button17
             // 
-            this.button17.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button17.BackColor = System.Drawing.Color.Gray;
+            this.button17.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button17.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button17.Location = new System.Drawing.Point(269, 299);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(52, 53);
             this.button17.TabIndex = 2;
-            this.button17.UseVisualStyleBackColor = true;
+            this.button17.UseVisualStyleBackColor = false;
             this.button17.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button18
             // 
-            this.button18.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button18.BackColor = System.Drawing.Color.Gray;
+            this.button18.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button18.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button18.Location = new System.Drawing.Point(269, 240);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(52, 53);
             this.button18.TabIndex = 2;
-            this.button18.UseVisualStyleBackColor = true;
+            this.button18.UseVisualStyleBackColor = false;
             this.button18.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button19
             // 
-            this.button19.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button19.BackColor = System.Drawing.Color.Gray;
+            this.button19.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button19.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button19.Location = new System.Drawing.Point(269, 181);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(52, 53);
             this.button19.TabIndex = 2;
-            this.button19.UseVisualStyleBackColor = true;
+            this.button19.UseVisualStyleBackColor = false;
             this.button19.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button20
             // 
-            this.button20.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button20.BackColor = System.Drawing.Color.Gray;
+            this.button20.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button20.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button20.Location = new System.Drawing.Point(269, 122);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(52, 53);
             this.button20.TabIndex = 2;
-            this.button20.UseVisualStyleBackColor = true;
+            this.button20.UseVisualStyleBackColor = false;
             this.button20.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // KeyBlockPicture
             // 
+            this.KeyBlockPicture.BackColor = System.Drawing.Color.Gray;
             this.KeyBlockPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.KeyBlockPicture.ImageLocation = ".\\Images\\Blockers\\Key.gif";
             this.KeyBlockPicture.Location = new System.Drawing.Point(269, 50);
@@ -366,6 +411,7 @@
             // 
             // CombatBlockPicture
             // 
+            this.CombatBlockPicture.BackColor = System.Drawing.Color.Gray;
             this.CombatBlockPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.CombatBlockPicture.ImageLocation = ".\\Images\\Blockers\\Combat.gif";
             this.CombatBlockPicture.Location = new System.Drawing.Point(327, 50);
@@ -377,42 +423,50 @@
             // 
             // button21
             // 
-            this.button21.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button21.BackColor = System.Drawing.Color.Gray;
+            this.button21.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button21.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button21.Location = new System.Drawing.Point(327, 122);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(52, 53);
             this.button21.TabIndex = 2;
-            this.button21.UseVisualStyleBackColor = true;
+            this.button21.UseVisualStyleBackColor = false;
             this.button21.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button22
             // 
-            this.button22.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button22.BackColor = System.Drawing.Color.Gray;
+            this.button22.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button22.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button22.Location = new System.Drawing.Point(327, 181);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(52, 53);
             this.button22.TabIndex = 2;
-            this.button22.UseVisualStyleBackColor = true;
+            this.button22.UseVisualStyleBackColor = false;
             this.button22.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button23
             // 
-            this.button23.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button23.BackColor = System.Drawing.Color.Gray;
+            this.button23.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button23.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button23.Location = new System.Drawing.Point(327, 240);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(52, 53);
             this.button23.TabIndex = 2;
-            this.button23.UseVisualStyleBackColor = true;
+            this.button23.UseVisualStyleBackColor = false;
             this.button23.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button24
             // 
-            this.button24.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button24.BackColor = System.Drawing.Color.Gray;
+            this.button24.Font = new System.Drawing.Font("Triforce", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button24.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.button24.Location = new System.Drawing.Point(327, 299);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(52, 53);
             this.button24.TabIndex = 2;
-            this.button24.UseVisualStyleBackColor = true;
+            this.button24.UseVisualStyleBackColor = false;
             this.button24.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // label2
@@ -427,6 +481,7 @@
             // 
             // CandleShopPicture
             // 
+            this.CandleShopPicture.BackColor = System.Drawing.Color.Gray;
             this.CandleShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.CandleShopPicture.ImageLocation = ".\\Images\\Shops\\Candle.gif";
             this.CandleShopPicture.Location = new System.Drawing.Point(534, 50);
@@ -438,6 +493,7 @@
             // 
             // RingShopPicture
             // 
+            this.RingShopPicture.BackColor = System.Drawing.Color.Gray;
             this.RingShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.RingShopPicture.ImageLocation = ".\\Images\\Shops\\Ring.gif";
             this.RingShopPicture.Location = new System.Drawing.Point(650, 50);
@@ -449,6 +505,7 @@
             // 
             // ArrowShopPicture
             // 
+            this.ArrowShopPicture.BackColor = System.Drawing.Color.Gray;
             this.ArrowShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ArrowShopPicture.ImageLocation = ".\\Images\\Shops\\Arrow.gif";
             this.ArrowShopPicture.Location = new System.Drawing.Point(592, 50);
@@ -460,6 +517,7 @@
             // 
             // RareShopPicture
             // 
+            this.RareShopPicture.BackColor = System.Drawing.Color.Gray;
             this.RareShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.RareShopPicture.ImageLocation = ".\\Images\\Shops\\Rare.gif";
             this.RareShopPicture.Location = new System.Drawing.Point(708, 50);
@@ -471,6 +529,7 @@
             // 
             // CandleShopItem1Picture
             // 
+            this.CandleShopItem1Picture.BackColor = System.Drawing.Color.Gray;
             this.CandleShopItem1Picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.CandleShopItem1Picture.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.CandleShopItem1Picture.ImageLocation = "";
@@ -484,6 +543,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Gray;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.ImageLocation = "";
@@ -497,6 +557,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Gray;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox2.ImageLocation = "";
@@ -510,6 +571,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Gray;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox3.ImageLocation = "";
@@ -523,6 +585,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Gray;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox4.ImageLocation = "";
@@ -536,6 +599,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Gray;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox5.ImageLocation = "";
@@ -549,6 +613,7 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Gray;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox6.ImageLocation = "";
@@ -562,6 +627,7 @@
             // 
             // pictureBox7
             // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Gray;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox7.ImageLocation = "";
@@ -575,6 +641,7 @@
             // 
             // pictureBox8
             // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Gray;
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox8.ImageLocation = "";
@@ -588,6 +655,7 @@
             // 
             // pictureBox9
             // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Gray;
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox9.ImageLocation = "";
@@ -601,6 +669,7 @@
             // 
             // pictureBox10
             // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Gray;
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox10.ImageLocation = "";
@@ -614,6 +683,7 @@
             // 
             // pictureBox11
             // 
+            this.pictureBox11.BackColor = System.Drawing.Color.Gray;
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox11.ImageLocation = "";
