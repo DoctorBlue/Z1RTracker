@@ -13,7 +13,7 @@ namespace Z1RTracker
             BackColor = Color.DarkOliveGreen;
         }
 
-        private void button1_MouseDown(object sender, MouseEventArgs e)
+        private void HandleDungeonMouseDown(object sender, MouseEventArgs e)
         {
             Button button = sender as Button;
             switch(e.Button)

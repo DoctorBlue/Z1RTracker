@@ -60,7 +60,7 @@
             this.button1.Size = new System.Drawing.Size(52, 53);
             this.button1.TabIndex = 2;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
+            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // TrackerWindow
             // 
