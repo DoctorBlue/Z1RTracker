@@ -419,7 +419,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Triforce", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(605, 6);
+            this.label2.Location = new System.Drawing.Point(566, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(170, 41);
             this.label2.TabIndex = 0;
@@ -429,7 +429,7 @@
             // 
             this.CandleShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.CandleShopPicture.ImageLocation = ".\\Images\\Shops\\Candle.gif";
-            this.CandleShopPicture.Location = new System.Drawing.Point(573, 50);
+            this.CandleShopPicture.Location = new System.Drawing.Point(534, 50);
             this.CandleShopPicture.Name = "CandleShopPicture";
             this.CandleShopPicture.Size = new System.Drawing.Size(52, 50);
             this.CandleShopPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -440,7 +440,7 @@
             // 
             this.RingShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.RingShopPicture.ImageLocation = ".\\Images\\Shops\\Ring.gif";
-            this.RingShopPicture.Location = new System.Drawing.Point(689, 50);
+            this.RingShopPicture.Location = new System.Drawing.Point(650, 50);
             this.RingShopPicture.Name = "RingShopPicture";
             this.RingShopPicture.Size = new System.Drawing.Size(52, 50);
             this.RingShopPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -451,7 +451,7 @@
             // 
             this.ArrowShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ArrowShopPicture.ImageLocation = ".\\Images\\Shops\\Arrow.gif";
-            this.ArrowShopPicture.Location = new System.Drawing.Point(631, 50);
+            this.ArrowShopPicture.Location = new System.Drawing.Point(592, 50);
             this.ArrowShopPicture.Name = "ArrowShopPicture";
             this.ArrowShopPicture.Size = new System.Drawing.Size(52, 50);
             this.ArrowShopPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -462,7 +462,7 @@
             // 
             this.RareShopPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.RareShopPicture.ImageLocation = ".\\Images\\Shops\\Rare.gif";
-            this.RareShopPicture.Location = new System.Drawing.Point(747, 50);
+            this.RareShopPicture.Location = new System.Drawing.Point(708, 50);
             this.RareShopPicture.Name = "RareShopPicture";
             this.RareShopPicture.Size = new System.Drawing.Size(52, 50);
             this.RareShopPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -474,7 +474,7 @@
             this.CandleShopItem1Picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.CandleShopItem1Picture.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.CandleShopItem1Picture.ImageLocation = "";
-            this.CandleShopItem1Picture.Location = new System.Drawing.Point(573, 122);
+            this.CandleShopItem1Picture.Location = new System.Drawing.Point(534, 122);
             this.CandleShopItem1Picture.Name = "CandleShopItem1Picture";
             this.CandleShopItem1Picture.Size = new System.Drawing.Size(52, 50);
             this.CandleShopItem1Picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -487,7 +487,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.ImageLocation = "";
-            this.pictureBox1.Location = new System.Drawing.Point(573, 178);
+            this.pictureBox1.Location = new System.Drawing.Point(534, 178);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(52, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -500,7 +500,7 @@
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox2.ImageLocation = "";
-            this.pictureBox2.Location = new System.Drawing.Point(573, 234);
+            this.pictureBox2.Location = new System.Drawing.Point(534, 234);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(52, 50);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -513,7 +513,7 @@
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox3.ImageLocation = "";
-            this.pictureBox3.Location = new System.Drawing.Point(631, 122);
+            this.pictureBox3.Location = new System.Drawing.Point(592, 122);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(52, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -526,7 +526,7 @@
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox4.ImageLocation = "";
-            this.pictureBox4.Location = new System.Drawing.Point(631, 178);
+            this.pictureBox4.Location = new System.Drawing.Point(592, 178);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(52, 50);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -539,7 +539,7 @@
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox5.ImageLocation = "";
-            this.pictureBox5.Location = new System.Drawing.Point(631, 234);
+            this.pictureBox5.Location = new System.Drawing.Point(592, 234);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(52, 50);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -552,7 +552,7 @@
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox6.ImageLocation = "";
-            this.pictureBox6.Location = new System.Drawing.Point(689, 234);
+            this.pictureBox6.Location = new System.Drawing.Point(650, 234);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(52, 50);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -565,7 +565,7 @@
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox7.ImageLocation = "";
-            this.pictureBox7.Location = new System.Drawing.Point(689, 178);
+            this.pictureBox7.Location = new System.Drawing.Point(650, 178);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(52, 50);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -578,7 +578,7 @@
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox8.ImageLocation = "";
-            this.pictureBox8.Location = new System.Drawing.Point(689, 122);
+            this.pictureBox8.Location = new System.Drawing.Point(650, 122);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(52, 50);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -591,7 +591,7 @@
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox9.ImageLocation = "";
-            this.pictureBox9.Location = new System.Drawing.Point(747, 122);
+            this.pictureBox9.Location = new System.Drawing.Point(708, 122);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(52, 50);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -604,7 +604,7 @@
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox10.ImageLocation = "";
-            this.pictureBox10.Location = new System.Drawing.Point(747, 178);
+            this.pictureBox10.Location = new System.Drawing.Point(708, 178);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(52, 50);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -617,7 +617,7 @@
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox11.ImageLocation = "";
-            this.pictureBox11.Location = new System.Drawing.Point(747, 234);
+            this.pictureBox11.Location = new System.Drawing.Point(708, 234);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(52, 50);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
