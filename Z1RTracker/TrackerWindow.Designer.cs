@@ -76,6 +76,8 @@
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.CreditLabel = new System.Windows.Forms.Label();
+            this.SourceLinkLabel = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.StepladderBlockPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RecorderBlockPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ArrowBlockPicture)).BeginInit();
@@ -695,11 +697,35 @@
             this.pictureBox11.TabStop = false;
             this.pictureBox11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleShopItemPictureMouseDown);
             // 
+            // CreditLabel
+            // 
+            this.CreditLabel.AutoSize = true;
+            this.CreditLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CreditLabel.Location = new System.Drawing.Point(534, 393);
+            this.CreditLabel.Name = "CreditLabel";
+            this.CreditLabel.Size = new System.Drawing.Size(172, 24);
+            this.CreditLabel.TabIndex = 3;
+            this.CreditLabel.Text = "v1.0 by Doctor Blue";
+            // 
+            // SourceLinkLabel
+            // 
+            this.SourceLinkLabel.AutoSize = true;
+            this.SourceLinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SourceLinkLabel.Location = new System.Drawing.Point(534, 417);
+            this.SourceLinkLabel.Name = "SourceLinkLabel";
+            this.SourceLinkLabel.Size = new System.Drawing.Size(234, 15);
+            this.SourceLinkLabel.TabIndex = 4;
+            this.SourceLinkLabel.TabStop = true;
+            this.SourceLinkLabel.Text = "https://github.com/DoctorBlue/Z1RTracker";
+            this.SourceLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.SourceLinkLabel_LinkClicked);
+            // 
             // TrackerWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.SourceLinkLabel);
+            this.Controls.Add(this.CreditLabel);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox11);
@@ -825,6 +851,8 @@
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.Label CreditLabel;
+        private System.Windows.Forms.LinkLabel SourceLinkLabel;
     }
 }
 

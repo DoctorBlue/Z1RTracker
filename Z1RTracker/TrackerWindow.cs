@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -107,6 +108,13 @@ namespace Z1RTracker
         {
             picture.ImageLocation = newShopItem.Length > 0 ? $".\\Images\\ShopItems\\{newShopItem}.gif" : newShopItem;
             picture.Tag = newShopItem;
+        }
+
+        private void SourceLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var linkLabel = sender as LinkLabel;
+            if (sender == null) return;
+            Process.Start("explorer.exe", linkLabel.Text);
         }
     }
 }
