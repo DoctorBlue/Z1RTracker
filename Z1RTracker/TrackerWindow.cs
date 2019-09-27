@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -11,8 +10,12 @@ namespace Z1RTracker
         {
             InitializeComponent();
             Text = "Z1R Tracker";
-            ForeColor = Color.Maroon;
-            BackColor = Color.DarkOliveGreen;
+        }
+
+        protected override void OnShown(EventArgs e)
+        {
+            base.OnShown(e);
+            ActiveControl = null;
         }
 
         private void HandleDungeonMouseDown(object sender, MouseEventArgs e)
