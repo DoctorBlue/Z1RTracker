@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z1RTracker", "Z1RTracker\Z1RTracker.csproj", "{FC0B2D68-3E6B-4B9B-9FBE-63690EFB28E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC0B2D68-3E6B-4B9B-9FBE-63690EFB28E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0B2D68-3E6B-4B9B-9FBE-63690EFB28E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0B2D68-3E6B-4B9B-9FBE-63690EFB28E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0B2D68-3E6B-4B9B-9FBE-63690EFB28E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B692DBB-4B02-47FA-9BE5-FF0E490A8ED0}
+	EndGlobalSection
+EndGlobal
