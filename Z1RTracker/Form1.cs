@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace Z1RTracker
@@ -63,6 +64,13 @@ namespace Z1RTracker
         {
             if (button == null) return;
             button.Text = "";
+        }
+
+        private void HandleDungeonBlockerClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Middle) return;
+            DungeonBlockers blocker = (DungeonBlockers)(System.Enum.Parse(typeof(DungeonBlockers), (sender as Control).TagString()));
+            Controls.OfType<Button>().Where(c => c.TagString() == blocker.ToString()).ToList().ForEach(Clear);
         }
     }
 }
