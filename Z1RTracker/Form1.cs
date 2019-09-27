@@ -28,15 +28,20 @@ namespace Z1RTracker
                 case MouseButtons.Middle:
                     Clear(button);
                     break;
-
             }
+        }
+
+        private void HandleDungeonBlockPictureMouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Middle) return;
+            DungeonBlockers blocker = (sender as Control).TagBlocker();
+            Controls.OfType<Button>().Where(c => c.TagBlocker() == blocker).ToList().ForEach(Clear);
         }
 
         private void Increment(Button button)
         {
             if (button == null) return;
-            var currentText = button.Text;
-            if (int.TryParse(currentText, out int currentNumber))
+            if (int.TryParse(button.Text, out int currentNumber))
             {
                 button.Text = currentNumber >= 8 ? "" : (++currentNumber).ToString();
             }
@@ -49,8 +54,7 @@ namespace Z1RTracker
         private void Decrement(Button button)
         {
             if (button == null) return;
-            var currentText = button.Text;
-            if (int.TryParse(currentText, out int currentNumber))
+            if (int.TryParse(button.Text, out int currentNumber))
             {
                 button.Text = currentNumber <= 1 ? "" : (--currentNumber).ToString();
             }
@@ -64,13 +68,6 @@ namespace Z1RTracker
         {
             if (button == null) return;
             button.Text = "";
-        }
-
-        private void HandleDungeonBlockerClick(object sender, MouseEventArgs e)
-        {
-            if (e.Button != MouseButtons.Middle) return;
-            DungeonBlockers blocker = (DungeonBlockers)(System.Enum.Parse(typeof(DungeonBlockers), (sender as Control).TagString()));
-            Controls.OfType<Button>().Where(c => c.TagString() == blocker.ToString()).ToList().ForEach(Clear);
         }
     }
 }
