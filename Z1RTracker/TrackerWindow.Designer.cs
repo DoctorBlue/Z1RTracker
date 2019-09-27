@@ -62,8 +62,6 @@
             this.ArrowBlockPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.ArrowBlockPicture.TabIndex = 1;
             this.ArrowBlockPicture.TabStop = false;
-            this.ArrowBlockPicture.Tag = DungeonBlockers.Arrow;
-            this.ArrowBlockPicture.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonBlockPictureMouseDown);
             // 
             // button1
             // 
@@ -72,7 +70,6 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(52, 53);
             this.button1.TabIndex = 2;
-            this.button1.Tag = DungeonBlockers.Arrow;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
@@ -83,7 +80,6 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(52, 53);
             this.button2.TabIndex = 2;
-            this.button2.Tag = DungeonBlockers.Arrow;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
@@ -94,7 +90,6 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(52, 53);
             this.button3.TabIndex = 2;
-            this.button3.Tag = DungeonBlockers.Arrow;
             this.button3.UseVisualStyleBackColor = true;
             this.button3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
@@ -105,7 +100,6 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(52, 53);
             this.button4.TabIndex = 2;
-            this.button4.Tag = DungeonBlockers.Arrow;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
@@ -113,56 +107,50 @@
             // 
             this.BombBlockPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.BombBlockPicture.ImageLocation = ".\\Images\\Blockers\\Bomb.gif";
-            this.BombBlockPicture.Location = new System.Drawing.Point(107, 50);
+            this.BombBlockPicture.Location = new System.Drawing.Point(95, 50);
             this.BombBlockPicture.Name = "BombBlockPicture";
             this.BombBlockPicture.Size = new System.Drawing.Size(52, 50);
             this.BombBlockPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.BombBlockPicture.TabIndex = 1;
             this.BombBlockPicture.TabStop = false;
-            this.BombBlockPicture.Tag = DungeonBlockers.Bomb;
-            this.BombBlockPicture.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonBlockPictureMouseDown);
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(107, 122);
+            this.button5.Location = new System.Drawing.Point(95, 122);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(52, 53);
             this.button5.TabIndex = 2;
-            this.button5.Tag = DungeonBlockers.Bomb;
             this.button5.UseVisualStyleBackColor = true;
             this.button5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(107, 181);
+            this.button6.Location = new System.Drawing.Point(95, 181);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(52, 53);
             this.button6.TabIndex = 2;
-            this.button6.Tag = DungeonBlockers.Bomb;
             this.button6.UseVisualStyleBackColor = true;
             this.button6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(107, 240);
+            this.button7.Location = new System.Drawing.Point(95, 240);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(52, 53);
             this.button7.TabIndex = 2;
-            this.button7.Tag = DungeonBlockers.Bomb;
             this.button7.UseVisualStyleBackColor = true;
             this.button7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Triforce", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(107, 299);
+            this.button8.Location = new System.Drawing.Point(95, 299);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(52, 53);
             this.button8.TabIndex = 2;
-            this.button8.Tag = DungeonBlockers.Bomb;
             this.button8.UseVisualStyleBackColor = true;
             this.button8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleDungeonMouseDown);
             // 
