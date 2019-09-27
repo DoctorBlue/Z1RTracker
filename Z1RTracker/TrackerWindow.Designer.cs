@@ -65,6 +65,8 @@
             this.ArrowShopPicture = new System.Windows.Forms.PictureBox();
             this.RareShopPicture = new System.Windows.Forms.PictureBox();
             this.CandleShopItem1Picture = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.StepladderBlockPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RecorderBlockPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ArrowBlockPicture)).BeginInit();
@@ -76,6 +78,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.ArrowShopPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RareShopPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CandleShopItem1Picture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             // 
             // label1
             // 
@@ -460,11 +464,39 @@
             this.CandleShopItem1Picture.TabStop = false;
             this.CandleShopItem1Picture.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleShopItemPictureMouseDown);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.ImageLocation = "";
+            this.pictureBox1.Location = new System.Drawing.Point(573, 178);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(52, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleShopItemPictureMouseDown);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox2.ImageLocation = "";
+            this.pictureBox2.Location = new System.Drawing.Point(573, 234);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(52, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleShopItemPictureMouseDown);
+            // 
             // TrackerWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.CandleShopItem1Picture);
             this.Controls.Add(this.CandleShopPicture);
             this.Controls.Add(this.RingShopPicture);
@@ -515,6 +547,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.ArrowShopPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RareShopPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CandleShopItem1Picture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 
         }
 
@@ -557,6 +591,8 @@
         private System.Windows.Forms.PictureBox ArrowShopPicture;
         private System.Windows.Forms.PictureBox RareShopPicture;
         private System.Windows.Forms.PictureBox CandleShopItem1Picture;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
