@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.BlockArrow = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.BlockArrow)).BeginInit();
             // 
             // label1
             // 
@@ -40,20 +42,32 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Dungeon Blocks";
             // 
+            // BlockArrow
+            // 
+            this.BlockArrow.ImageLocation = ".\\Images\\Blockers\\Arrow.gif";
+            this.BlockArrow.Location = new System.Drawing.Point(90, 117);
+            this.BlockArrow.Name = "BlockArrow";
+            this.BlockArrow.Size = new System.Drawing.Size(100, 50);
+            this.BlockArrow.TabIndex = 1;
+            this.BlockArrow.TabStop = false;
+            // 
             // TrackerWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BlockArrow);
             this.Controls.Add(this.label1);
             this.Name = "TrackerWindow";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.BlockArrow)).EndInit();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox BlockArrow;
     }
 }
 

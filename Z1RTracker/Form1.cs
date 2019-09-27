@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.Drawing;
+using System.Windows.Forms;
 
 namespace Z1RTracker
 {
@@ -8,6 +9,8 @@ namespace Z1RTracker
         {
             InitializeComponent();
             this.Text = "Z1R Tracker";
+            this.ForeColor = Color.Maroon;
+            BackColor = Color.DarkOliveGreen;
         }
     }
 }
