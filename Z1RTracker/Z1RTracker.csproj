@@ -34,7 +34,7 @@
     <None Update="Images\ShopItems\Bomb.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Images\ShopItems\Food.gif">
+    <None Update="Images\ShopItems\Meat.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Images\ShopItems\Key.gif">

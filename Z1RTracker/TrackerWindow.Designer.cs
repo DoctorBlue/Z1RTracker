@@ -64,6 +64,7 @@
             this.RingShopPicture = new System.Windows.Forms.PictureBox();
             this.ArrowShopPicture = new System.Windows.Forms.PictureBox();
             this.RareShopPicture = new System.Windows.Forms.PictureBox();
+            this.CandleShopItem1Picture = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.StepladderBlockPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RecorderBlockPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ArrowBlockPicture)).BeginInit();
@@ -74,6 +75,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.RingShopPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ArrowShopPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RareShopPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CandleShopItem1Picture)).BeginInit();
             // 
             // label1
             // 
@@ -445,11 +447,25 @@
             this.RareShopPicture.TabIndex = 1;
             this.RareShopPicture.TabStop = false;
             // 
+            // CandleShopItem1Picture
+            // 
+            this.CandleShopItem1Picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.CandleShopItem1Picture.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.CandleShopItem1Picture.ImageLocation = "";
+            this.CandleShopItem1Picture.Location = new System.Drawing.Point(573, 122);
+            this.CandleShopItem1Picture.Name = "CandleShopItem1Picture";
+            this.CandleShopItem1Picture.Size = new System.Drawing.Size(52, 50);
+            this.CandleShopItem1Picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.CandleShopItem1Picture.TabIndex = 1;
+            this.CandleShopItem1Picture.TabStop = false;
+            this.CandleShopItem1Picture.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HandleShopItemPictureMouseDown);
+            // 
             // TrackerWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.CandleShopItem1Picture);
             this.Controls.Add(this.CandleShopPicture);
             this.Controls.Add(this.RingShopPicture);
             this.Controls.Add(this.ArrowShopPicture);
@@ -498,6 +514,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.RingShopPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ArrowShopPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RareShopPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CandleShopItem1Picture)).EndInit();
 
         }
 
@@ -539,6 +556,7 @@
         private System.Windows.Forms.PictureBox RingShopPicture;
         private System.Windows.Forms.PictureBox ArrowShopPicture;
         private System.Windows.Forms.PictureBox RareShopPicture;
+        private System.Windows.Forms.PictureBox CandleShopItem1Picture;
     }
 }
 

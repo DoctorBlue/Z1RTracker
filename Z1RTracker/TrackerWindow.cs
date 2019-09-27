@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -68,6 +69,41 @@ namespace Z1RTracker
         {
             if (button == null) return;
             button.Text = "";
+        }
+
+        private void HandleShopItemPictureMouseDown(object sender, MouseEventArgs e)
+        {
+            PictureBox picture = sender as PictureBox;
+            if (picture == null) return;
+            string[] shopItems = new[] { "", "Arrow", "Bomb", "Candle", "Key", "Meat" };
+            string currentShopItem = picture.Tag?.ToString() ?? "";
+            switch (e.Button)
+            {
+                case MouseButtons.Left:
+                {
+                    int newIndex = Array.IndexOf(shopItems, currentShopItem) + 1;
+                    string newShopItem = newIndex >= shopItems.Length ? shopItems[0] : shopItems[newIndex];
+                    SetShopItem(picture, newShopItem);
+                    break;
+                }
+                case MouseButtons.Right:
+                {
+                    int newIndex = Array.IndexOf(shopItems, currentShopItem) - 1;
+                    string newShopItem = newIndex < 0 ? shopItems.Last() : shopItems[newIndex];
+                    SetShopItem(picture, newShopItem);
+                    break;
+                }
+                case MouseButtons.Middle:
+                    picture.ImageLocation = "";
+                    picture.Tag = "";
+                    break;
+            }
+        }
+
+        private void SetShopItem(PictureBox picture, string newShopItem)
+        {
+            picture.ImageLocation = newShopItem.Length > 0 ? $".\\Images\\ShopItems\\{newShopItem}.gif" : newShopItem;
+            picture.Tag = newShopItem;
         }
     }
 }
