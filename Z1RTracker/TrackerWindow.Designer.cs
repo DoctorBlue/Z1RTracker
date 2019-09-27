@@ -103,7 +103,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Triforce", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(24, 6);
+            this.label1.Location = new System.Drawing.Point(85, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(236, 41);
             this.label1.TabIndex = 0;
@@ -419,7 +419,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Triforce", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(629, 6);
+            this.label2.Location = new System.Drawing.Point(605, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(170, 41);
             this.label2.TabIndex = 0;
